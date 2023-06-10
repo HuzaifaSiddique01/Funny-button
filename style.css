@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta+Malar&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mukta Malar', sans-serif;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(100, 100, 100);
+}
+
+.container {
+    width: 300px;
+    min-height: 300px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+
+}
+
+h3 {
+    color: rgb(41, 41, 41);
+}
+
+.bts-bx {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.btn {
+    width: 70px;
+    margin: 15px;
+    padding: 5px;
+    border: none;
+    background-color: rgb(41, 41, 41);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.img-bx {
+    width: 100%;
+    min-height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.img {
+    display: none;
+}
+
+.water-mark {
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(41, 41, 41);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+span {
+    color: red;
+    margin-left: 3px;
+}
